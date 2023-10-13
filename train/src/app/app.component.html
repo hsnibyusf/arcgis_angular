@@ -1,0 +1,10 @@
+<app-header (toggleView)="toggleView()"></app-header>
+
+<div>
+  <div *ngIf="isMapVisible">
+    <app-map></app-map>
+  </div>
+  <div *ngIf="!isMapVisible">
+    <app-scene></app-scene>
+  </div>
+</div>

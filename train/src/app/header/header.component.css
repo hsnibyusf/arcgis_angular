@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+  z-index: 999;
+     /* Add black border */
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .black {
+    color: black;
+  }
+  
+  .switch-container {
+    margin-left: 10px;
+  }
+  
+  .switch-button {
+    width: 8em;
+    height: 2.5em;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .switch-button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .reverse-colors {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .reverse-colors h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .reverse-colors .switch-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .reverse-colors .switch-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }

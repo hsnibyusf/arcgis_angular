@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    margin-left: 0;
+  }
+  .esri-view-height-small .esri-expand .esri-widget--panel, .esri-view-height-small .esri-expand .esri-widget--panel-height-only, .esri-view-height-small .esri-ui-corner .esri-component.esri-widget--panel, .esri-view-height-small .esri-ui-corner .esri-component.esri-widget--panel-height-only {
+    max-height: 340px;
+}
+.esri-directions__panel-content {
+  max-height: 300px;
+}
